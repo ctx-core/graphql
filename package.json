@@ -33,7 +33,7 @@
 		"@ctx-core/array": "^15.5.10",
 		"@ctx-core/function": "^10.5.42",
 		"@ctx-core/object": "^8.0.4",
-		"graphql": "^15.0.0"
+		"graphql": ">=14.6.0"
 	},
 	"devDependencies": {
 		"typescript": "^3.8.3"
