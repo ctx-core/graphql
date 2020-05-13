@@ -36,7 +36,7 @@
 		"graphql": "~14.6.0"
 	},
 	"devDependencies": {
-		"typescript": "^3.8.3"
+		"typescript": "^3.9.2"
 	},
 	"noUpdate": [
 		"graphql"
