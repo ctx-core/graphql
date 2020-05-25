@@ -2,7 +2,6 @@
 	"name": "@ctx-core/graphql",
 	"version": "4.1.57",
 	"description": "ctx-core graphql",
-	"type": "module",
 	"main": "lib.js",
 	"module": "lib.js",
 	"types": "lib.ts",
