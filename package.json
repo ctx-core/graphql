@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/graphql",
-	"version": "4.1.58",
+	"version": "4.1.59",
 	"description": "ctx-core graphql",
 	"main": "lib.js",
 	"module": "lib.js",
@@ -30,9 +30,9 @@
 		"access": "public"
 	},
 	"dependencies": {
-		"@ctx-core/array": "^15.5.21",
-		"@ctx-core/function": "^13.0.6",
-		"@ctx-core/object": "^8.0.14",
+		"@ctx-core/array": "^15.5.22",
+		"@ctx-core/function": "^13.0.7",
+		"@ctx-core/object": "^8.0.15",
 		"graphql": "~14.6.0"
 	},
 	"devDependencies": {
