@@ -2,9 +2,9 @@
 	"name": "@ctx-core/graphql",
 	"version": "4.1.63",
 	"description": "ctx-core graphql",
-	"main": "index.js",
-	"module": "index.js",
-	"types": "index.ts",
+	"main": "./index.js",
+	"module": "./index.js",
+	"types": "./index.ts",
 	"scripts": {
 		"build": "npm run clean && npm run compile",
 		"clean": "rm -f tsconfig.tsbuildinfo",
