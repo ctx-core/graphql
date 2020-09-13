@@ -10,7 +10,7 @@
 		"clean": "rm -f tsconfig.tsbuildinfo",
 		"compile": "tsc -b",
 		"prepublishOnly": "npm run compile",
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"exec": "$@"
 	},
 	"repository": {
 		"type": "git",
@@ -41,5 +41,5 @@
 	"noUpdate": [
 		"graphql"
 	],
-	"gitHead": "ed53a079dc83d4815049f6327b8b6a797446dc10"
+	"gitHead": "1ed716ee3218b18d666ab3598b8e7b9dce6b46ca"
 }
