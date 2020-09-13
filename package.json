@@ -2,6 +2,20 @@
 	"name": "@ctx-core/graphql",
 	"version": "4.1.88",
 	"description": "ctx-core graphql",
+	"keywords": [
+		"ctx-core",
+		"google"
+	],
+	"homepage": "https://github.com/ctx-core/graphql#readme",
+	"bugs": {
+		"url": "https://github.com/ctx-core/graphql/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ctx-core/graphql/issues"
+	},
+	"license": "Apache-2.0",
+	"author": "Brian Takita",
 	"main": "./index.js",
 	"module": "./index.js",
 	"types": "./index.ts",
@@ -9,37 +23,23 @@
 		"build": "npm run clean && npm run compile",
 		"clean": "rm -f tsconfig.tsbuildinfo",
 		"compile": "tsc -b",
-		"prepublishOnly": "npm run compile",
-		"exec": "$@"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/ctx-core/graphql/issues"
-	},
-	"keywords": [
-		"ctx-core",
-		"google"
-	],
-	"author": "Brian Takita",
-	"license": "Apache-2.0",
-	"bugs": {
-		"url": "https://github.com/ctx-core/graphql/issues"
-	},
-	"homepage": "https://github.com/ctx-core/graphql#readme",
-	"publishConfig": {
-		"access": "public"
+		"exec": "$@",
+		"prepublishOnly": "npm run compile"
 	},
 	"dependencies": {
-		"@ctx-core/array": "^17.0.4",
-		"@ctx-core/function": "^14.0.3",
-		"@ctx-core/object": "^10.0.4",
+		"@ctx-core/array": "workspace:*",
+		"@ctx-core/function": "workspace:*",
+		"@ctx-core/object": "workspace:*",
 		"graphql": "~14.6.0"
 	},
 	"devDependencies": {
 		"typescript": "^4.0.2"
 	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"gitHead": "1ed716ee3218b18d666ab3598b8e7b9dce6b46ca",
 	"noUpdate": [
 		"graphql"
-	],
-	"gitHead": "1ed716ee3218b18d666ab3598b8e7b9dce6b46ca"
+	]
 }
