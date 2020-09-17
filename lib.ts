@@ -2,10 +2,10 @@ import { GraphQLError } from 'graphql'
 import { andand } from '@ctx-core/function'
 import { assign } from '@ctx-core/object'
 import { reduce } from '@ctx-core/array'
-export type Resolvers = any
-export type DocumentNode = any
+export type Resolvers = unknown
+export type DocumentNode = unknown
 export type TypeDefs = string|string[]|DocumentNode|DocumentNode[]
-export type GraphQLSchema = any
+export type GraphQLSchema = unknown
 export interface has_state {
 	state:any
 }
