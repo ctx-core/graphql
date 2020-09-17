@@ -1,6 +1,6 @@
 {
   "name": "@ctx-core/graphql",
-  "version": "4.1.89",
+  "version": "4.1.90",
   "description": "ctx-core graphql",
   "keywords": [
     "ctx-core",
@@ -22,7 +22,7 @@
   "scripts": {
     "build": "npm run clean && npm run compile",
     "clean": "rm -f tsconfig.tsbuildinfo",
-    "compile": "tsc -b",
+    "compile": "./node_modules/.bin/tsc -b",
     "exec": "$@",
     "prepublishOnly": "npm run compile"
   },
