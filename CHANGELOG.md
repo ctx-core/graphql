@@ -1,5 +1,11 @@
 # @ctx-core/graphql
 
+## 5.0.1
+
+### Patch Changes
+
+- @ctx-core/array@19.0.1
+
 ## 5.0.0
 
 ### Major Changes
