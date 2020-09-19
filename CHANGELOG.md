@@ -1,5 +1,18 @@
 # @ctx-core/graphql
 
+## 5.0.0
+
+### Major Changes
+
+- Typescript strict checking
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/array@19.0.0
+  - @ctx-core/function@16.0.0
+  - @ctx-core/object@12.0.0
+
 ## 4.1.90
 
 ### Patch Changes

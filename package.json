@@ -1,6 +1,6 @@
 {
   "name": "@ctx-core/graphql",
-  "version": "4.1.90",
+  "version": "5.0.0",
   "description": "ctx-core graphql",
   "keywords": [
     "ctx-core",
@@ -33,7 +33,7 @@
     "graphql": "~14.6.0"
   },
   "devDependencies": {
-    "typescript": "^4.0.2"
+    "typescript": "^4.0.3"
   },
   "publishConfig": {
     "access": "public"
