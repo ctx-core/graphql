@@ -1,5 +1,13 @@
 # @ctx-core/graphql
 
+## 5.0.8
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/object@12.0.4
+  - @ctx-core/array@19.0.8
+
 ## 5.0.7
 
 ### Patch Changes
