@@ -15,10 +15,10 @@ export function _graphql_validation_errors(payload) {
 	return validation_errors
 }
 export const _validation_errors__graphql = _graphql_validation_errors
-export type validation_error_type = {
-	extensions: {
-		exception: {
-			state: object
+export interface validation_error_type {
+	extensions:{
+		exception:{
+			state:object
 		}
 	}
 }
