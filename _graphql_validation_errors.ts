@@ -14,7 +14,6 @@ export function _graphql_validation_errors(payload) {
 			{})
 	return validation_errors
 }
-export const _validation_errors__graphql = _graphql_validation_errors
 export interface validation_error_type {
 	extensions:{
 		exception:{
@@ -23,3 +22,6 @@ export interface validation_error_type {
 	}
 }
 export type validation_memo_type = object
+export {
+	_graphql_validation_errors as _validation_errors__graphql
+}
