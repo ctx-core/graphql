@@ -1,5 +1,19 @@
 # @ctx-core/graphql
 
+## 5.1.6
+
+### Patch Changes
+
+- using export as instead of export const
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/array@19.1.6
+  - @ctx-core/object@15.0.4
+  - @ctx-core/function@16.1.5
+
 ## 5.1.5
 
 ### Patch Changes
