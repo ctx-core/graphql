@@ -1,1 +1,1 @@
-export declare function gql(a1: TemplateStringsArray): String;
+export declare function gql(a1: TemplateStringsArray): string;
