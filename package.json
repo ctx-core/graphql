@@ -30,7 +30,7 @@
 		"@ctx-core/array": "workspace:^19.1.13",
 		"@ctx-core/function": "workspace:^16.4.0",
 		"@ctx-core/object": "workspace:^15.0.10",
-		"graphql": "~14.6.0"
+		"graphql": "^15.4.0"
 	},
 	"devDependencies": {
 		"typescript": "^4.1.3"
