@@ -1,1 +1,2 @@
-export declare function gql(a1: TemplateStringsArray): string;
+import gql from 'nanographql';
+export { gql };
