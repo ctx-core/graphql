@@ -1,5 +1,15 @@
 # @ctx-core/graphql
 
+## 6.0.26
+
+### Patch Changes
+
+- fix: npm run compile: tsc -b .
+- Updated dependencies [undefined]
+  - @ctx-core/array@20.2.1
+  - @ctx-core/function@17.4.2
+  - @ctx-core/object@17.4.1
+
 ## 6.0.25
 
 ### Patch Changes
