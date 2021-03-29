@@ -1,5 +1,15 @@
 # @ctx-core/graphql
 
+## 6.0.27
+
+### Patch Changes
+
+- fix: npm publish: https://github.com/npm/cli/issues/2834
+- Updated dependencies [undefined]
+  - @ctx-core/array@20.2.2
+  - @ctx-core/function@17.4.3
+  - @ctx-core/object@17.4.2
+
 ## 6.0.26
 
 ### Patch Changes
