@@ -1,4 +1,7 @@
-export declare function _graphql_validation_errors(payload: any): object;
+export declare function _graphql_validation_errors(payload: _graphql_validation_errors_payload_I): object;
+export interface _graphql_validation_errors_payload_I {
+    errors?: validation_error_type[];
+}
 export interface validation_error_type {
     extensions: {
         exception: {

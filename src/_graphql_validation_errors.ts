@@ -1,8 +1,8 @@
 import { andand } from '@ctx-core/function'
-import { reduce } from '@ctx-core/array'
 import { assign } from '@ctx-core/object'
-export function _graphql_validation_errors(payload) {
-	const errors:validation_error_type[] = andand(payload, 'errors') || []
+import { reduce } from '@ctx-core/array'
+export function _graphql_validation_errors(payload:_graphql_validation_errors_payload_I) {
+	const errors:validation_error_type[] = payload?.errors || []
 	const validation_errors =
 		reduce<validation_error_type, validation_memo_type>(
 			errors,
@@ -13,6 +13,9 @@ export function _graphql_validation_errors(payload) {
 				),
 			{})
 	return validation_errors
+}
+export interface _graphql_validation_errors_payload_I {
+	errors?:validation_error_type[]
 }
 export interface validation_error_type {
 	extensions:{
