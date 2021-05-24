@@ -1,4 +1,3 @@
-import { andand } from '@ctx-core/function'
 import { assign } from '@ctx-core/object'
 import { reduce } from '@ctx-core/array'
 export function _graphql_validation_errors(payload:_graphql_validation_errors_payload_I) {
@@ -9,7 +8,7 @@ export function _graphql_validation_errors(payload:_graphql_validation_errors_pa
 			(memo, error)=>
 				assign(
 					memo,
-					andand(error, 'extensions', 'exception', 'state')
+					error?.extensions.exception.state
 				),
 			{})
 	return validation_errors
