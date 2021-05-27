@@ -1,5 +1,14 @@
 # @ctx-core/graphql
 
+## 6.3.1
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies [undefined]
+  - @ctx-core/function@17.11.1
+  - @ctx-core/object@18.2.1
+
 ## 6.3.0
 
 ### Minor Changes
