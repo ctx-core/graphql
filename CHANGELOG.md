@@ -1,5 +1,11 @@
 # @ctx-core/graphql
 
+## 7.0.1
+
+### Patch Changes
+
+- update dependencies
+
 ## 7.0.0
 
 ### Major Changes
