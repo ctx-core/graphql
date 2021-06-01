@@ -1,5 +1,13 @@
 # @ctx-core/graphql
 
+## 7.0.5
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies [undefined]
+  - @ctx-core/object@19.0.3
+
 ## 7.0.4
 
 ### Patch Changes
