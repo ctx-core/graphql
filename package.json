@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/graphql",
-	"version": "8.0.6",
+	"version": "8.0.7",
 	"description": "ctx-core graphql",
 	"keywords": [
 		"ctx-core",
@@ -24,12 +24,12 @@
 		"clean": "rm -f tsconfig.tsbuildinfo && rm -f src/**/*.js && rm -f src/**/*.d.ts && rm -f src/**/*.map",
 		"compile": "./node_modules/.bin/tsc -b .",
 		"exec": "$@",
-		"prepare": "npm run build"
+		"prepare": "npm run clean && npm run compile"
 	},
 	"dependencies": {
-		"@ctx-core/array": "workspace:^22.0.6",
-		"@ctx-core/function": "workspace:^19.1.4",
-		"@ctx-core/object": "workspace:^20.0.5",
+		"@ctx-core/array": "workspace:^22.0.7",
+		"@ctx-core/function": "workspace:^19.1.5",
+		"@ctx-core/object": "workspace:^20.0.6",
 		"graphql": "^15.5.0",
 		"nanographql": "^2.0.0"
 	},
