@@ -1,5 +1,17 @@
 # @ctx-core/graphql
 
+## 8.0.10
+
+### Patch Changes
+
+- update dependencies
+
+## 8.0.9
+
+### Patch Changes
+
+- graphql: ^15.5.0 -> ^15.5.1
+
 ## 8.0.8
 
 ### Patch Changes
