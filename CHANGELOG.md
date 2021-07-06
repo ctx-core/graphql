@@ -1,5 +1,14 @@
 # @ctx-core/graphql
 
+## 8.0.22
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies [undefined]
+  - @ctx-core/array@22.1.3
+  - @ctx-core/object@20.2.5
+
 ## 8.0.21
 
 ### Patch Changes
