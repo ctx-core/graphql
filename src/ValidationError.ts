@@ -1,5 +1,5 @@
 import { GraphQLError } from 'graphql'
-import type { has_state } from './has_state'
+import type { has_state } from './has_state.js'
 export class ValidationError extends GraphQLError implements has_state {
 	constructor(errors:{ key:string, message:string }[]) {
 		super('The request is invalid.')
