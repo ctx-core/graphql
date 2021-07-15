@@ -1,6 +1,6 @@
 import { assign } from '@ctx-core/object'
 import { reduce } from '@ctx-core/array'
-export function graphql_validation_errors_(payload:graphql_validation_errors_payload__I) {
+export function graphql_validation_errors_(payload:graphql_validation_errors_payload__I):validation_error_T[] {
 	const errors:validation_error_T[] = payload?.errors || []
 	const validation_errors =
 		reduce<validation_error_T, validation_memo_type>(
@@ -10,7 +10,7 @@ export function graphql_validation_errors_(payload:graphql_validation_errors_pay
 					memo,
 					error?.extensions.exception.state
 				),
-			{})
+			{}) as validation_error_T[]
 	return validation_errors
 }
 export interface graphql_validation_errors_payload__I {
