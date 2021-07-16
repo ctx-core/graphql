@@ -1,5 +1,25 @@
 # @ctx-core/graphql
 
+## 9.0.11
+
+### Patch Changes
+
+- fix: sourceMappingURL: "mapRoot": ""
+- Updated dependencies [undefined]
+  - @ctx-core/array@23.0.11
+  - @ctx-core/function@20.0.10
+  - @ctx-core/object@21.0.10
+
+## 9.0.10
+
+### Patch Changes
+
+- tsconfig.json: "target": "es2019"
+- Updated dependencies [undefined]
+  - @ctx-core/array@23.0.10
+  - @ctx-core/function@20.0.9
+  - @ctx-core/object@21.0.9
+
 ## 9.0.9
 
 ### Patch Changes
