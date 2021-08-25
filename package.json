@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/graphql",
-	"version": "9.0.16",
+	"version": "9.0.17",
 	"description": "ctx-core graphql",
 	"keywords": [
 		"ctx-core",
@@ -36,9 +36,9 @@
 		"prepublishOnly": "npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/array": "workspace:^23.0.16",
-		"@ctx-core/function": "workspace:^20.1.1",
-		"@ctx-core/object": "workspace:^21.0.15",
+		"@ctx-core/array": "workspace:^23.0.17",
+		"@ctx-core/function": "workspace:^20.1.2",
+		"@ctx-core/object": "workspace:^21.0.16",
 		"esm": "^3.2.25",
 		"graphql": "^15.5.1",
 		"nanographql": "^2.0.0"
