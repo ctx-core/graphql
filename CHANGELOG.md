@@ -1,5 +1,13 @@
 # @ctx-core/graphql
 
+## 9.0.39
+
+### Patch Changes
+
+- package.json: - "main": explicitly not support cjs
+- Updated dependencies
+  - @ctx-core/array@23.0.32
+
 ## 9.0.38
 
 ### Patch Changes
