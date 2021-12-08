@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/graphql",
-	"version": "9.0.39",
+	"version": "9.0.40",
 	"description": "ctx-core graphql",
 	"keywords": [
 		"ctx-core",
@@ -21,7 +21,6 @@
 	"types": "./src/index.ts",
 	"exports": {
 		".": {
-			"require": "./dist/index.cjs",
 			"import": "./dist/index.js"
 		},
 		"./package.json": "./package.json"
@@ -37,7 +36,7 @@
 		"@ctx-core/array": "workspace:^23.0.32",
 		"@ctx-core/function": "workspace:^20.2.12",
 		"@ctx-core/object": "workspace:^21.0.30",
-		"graphql": "^16.0.1",
+		"graphql": "^16.1.0",
 		"nanographql": "^2.0.0"
 	},
 	"devDependencies": {
