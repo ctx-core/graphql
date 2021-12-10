@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/graphql",
-	"version": "9.0.40",
+	"version": "9.0.41",
 	"description": "ctx-core graphql",
 	"keywords": [
 		"ctx-core",
@@ -17,7 +17,6 @@
 	"license": "Apache-2.0",
 	"author": "Brian Takita",
 	"type": "module",
-	"module": "./dist/index.js",
 	"types": "./src/index.ts",
 	"exports": {
 		".": {
@@ -33,9 +32,9 @@
 		"prepublishOnly": "npm run clean && npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/array": "workspace:^23.0.32",
+		"@ctx-core/array": "workspace:^23.0.33",
 		"@ctx-core/function": "workspace:^20.2.12",
-		"@ctx-core/object": "workspace:^21.0.30",
+		"@ctx-core/object": "workspace:^22.0.0",
 		"graphql": "^16.1.0",
 		"nanographql": "^2.0.0"
 	},
