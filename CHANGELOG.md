@@ -1,5 +1,15 @@
 # @ctx-core/graphql
 
+## 9.0.44
+
+### Patch Changes
+
+- fix: tsconfig.json: "rootDir": "."
+- Updated dependencies
+  - @ctx-core/array@23.0.36
+  - @ctx-core/function@20.2.15
+  - @ctx-core/object@22.0.3
+
 ## 9.0.43
 
 ### Patch Changes
