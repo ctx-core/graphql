@@ -1,5 +1,15 @@
 # @ctx-core/graphql
 
+## 9.0.47
+
+### Patch Changes
+
+- package.json: "types": "./src/index.ts": better editing experience
+- Updated dependencies
+  - @ctx-core/array@23.0.39
+  - @ctx-core/function@20.2.18
+  - @ctx-core/object@22.0.6
+
 ## 9.0.46
 
 ### Patch Changes
