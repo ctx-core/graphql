@@ -1,5 +1,14 @@
 # @ctx-core/graphql
 
+## 9.0.50
+
+### Patch Changes
+
+- .js + .d.ts instead of .ts
+- .js + .d.ts instead of .ts
+- Updated dependencies
+  - @ctx-core/function@20.2.21
+
 ## 9.0.49
 
 ### Patch Changes
