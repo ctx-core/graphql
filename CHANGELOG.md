@@ -1,5 +1,11 @@
 # @ctx-core/graphql
 
+## 9.0.51
+
+### Patch Changes
+
+- fix: remove incorrect source map annotation
+
 ## 9.0.50
 
 ### Patch Changes
