@@ -38,7 +38,7 @@
 		"@ctx-core/array": "workspace:^24.0.0",
 		"@ctx-core/function": "workspace:^20.4.0",
 		"@ctx-core/object": "workspace:^22.0.13",
-		"graphql": "^16.2.0",
+		"graphql": "^16.3.0",
 		"nanographql": "^2.0.0"
 	},
 	"devDependencies": {
