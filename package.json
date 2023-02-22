@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/graphql",
-	"version": "9.0.110",
+	"version": "9.0.111",
 	"description": "ctx-core graphql",
 	"keywords": [
 		"ctx-core",
@@ -33,7 +33,7 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/array": "^26.11.4",
+		"@ctx-core/array": "^26.11.5",
 		"@ctx-core/function": "^21.8.0",
 		"@ctx-core/object": "^24.1.8",
 		"graphql": "^16.6.0",
