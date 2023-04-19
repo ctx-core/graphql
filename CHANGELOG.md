@@ -1,5 +1,15 @@
 # @ctx-core/graphql
 
+## 9.0.158
+
+### Patch Changes
+
+- @ctx-core/monorepo: ^20.3.3 -> ^20.3.4
+- Updated dependencies
+  - @ctx-core/array@26.12.32
+  - @ctx-core/function@21.17.19
+  - @ctx-core/object@27.4.23
+
 ## 9.0.157
 
 ### Patch Changes
