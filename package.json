@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/graphql",
-	"version": "9.0.171",
+	"version": "9.0.172",
 	"description": "ctx-core graphql",
 	"keywords": [
 		"ctx-core",
@@ -36,7 +36,7 @@
 		"@ctx-core/array": "^26.12.44",
 		"@ctx-core/function": "^21.18.0",
 		"@ctx-core/object": "^28.0.3",
-		"graphql": "^16.7.0",
+		"graphql": "^16.7.1",
 		"nanographql": "^2.0.0"
 	},
 	"devDependencies": {
