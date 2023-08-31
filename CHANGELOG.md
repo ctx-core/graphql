@@ -1,5 +1,11 @@
 # @ctx-core/graphql
 
+## 9.0.177
+
+### Patch Changes
+
+- @ctx-core/array: ^26.14.1 -> ^26.15.0
+
 ## 9.0.176
 
 ### Patch Changes
