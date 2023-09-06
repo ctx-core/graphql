@@ -1,5 +1,15 @@
 # @ctx-core/graphql
 
+## 9.0.179
+
+### Patch Changes
+
+- version bump
+- Updated dependencies
+  - @ctx-core/array@26.15.2
+  - @ctx-core/function@21.20.1
+  - @ctx-core/object@28.0.7
+
 ## 9.0.178
 
 ### Patch Changes
