@@ -1,5 +1,16 @@
 # @ctx-core/graphql
 
+## 9.0.183
+
+### Patch Changes
+
+- @types/nanographql: ^2.0.1 -> ^2.0.2
+- tsx: ^3.13.0 -> ^3.14.0
+- Updated dependencies
+  - @ctx-core/array@26.15.5
+  - @ctx-core/function@21.20.2
+  - @ctx-core/object@28.2.1
+
 ## 9.0.182
 
 ### Patch Changes
