@@ -1,5 +1,11 @@
 # @ctx-core/graphql
 
+## 9.0.186
+
+### Patch Changes
+
+- @types/nanographql: ^2.0.2 -> ^2.0.3
+
 ## 9.0.185
 
 ### Patch Changes
