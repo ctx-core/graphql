@@ -1,5 +1,5 @@
 import { GraphQLError } from 'graphql'
-/** @type {import('ValidationError').ValidationError} */
+/** @type {import('./index.d.ts').ValidationError} */
 export class ValidationError extends GraphQLError {
 	constructor(errors) {
 		super('The request is invalid.')
