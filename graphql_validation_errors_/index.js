@@ -1,6 +1,6 @@
-import { reduce } from '@ctx-core/array'
-import { assign } from '@ctx-core/object'
-/** @type {import('./index.d.ts').graphql_validation_errors_} */
+/// <reference types="./index.d.ts" />
+import { reduce } from 'ctx-core/array'
+import { assign } from 'ctx-core/object'
 export const graphql_validation_errors_ = payload=>{
 	const errors = (payload === null || payload === void 0 ? void 0 : payload.errors) || []
 	const validation_errors = reduce(errors, (memo, error)=>{
