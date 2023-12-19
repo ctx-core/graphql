@@ -1,5 +1,13 @@
 # @ctx-core/graphql
 
+## 9.1.53
+
+### Patch Changes
+
+- @ctx-core/function: ^21.24.6 -> ^21.24.7
+- @ctx-core/array: ^27.1.13 -> ^27.1.14
+- @ctx-core/object: ^31.1.33 -> ^31.1.34
+
 ## 9.1.52
 
 ### Patch Changes
