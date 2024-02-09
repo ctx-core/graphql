@@ -1,5 +1,12 @@
 # @ctx-core/graphql
 
+## 9.1.131
+
+### Patch Changes
+
+- Updated dependencies
+  - ctx-core@6.0.0
+
 ## 9.1.130
 
 ### Patch Changes
