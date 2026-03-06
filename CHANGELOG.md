@@ -1,5 +1,13 @@
 # @ctx-core/graphql
 
+## 9.1.209
+
+### Patch Changes
+
+- chore: migrate scripts from pnpm to bun
+- Updated dependencies
+  - ctx-core@7.2.34
+
 ## 9.1.208
 
 ### Patch Changes
